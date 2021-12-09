@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 200px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 100px 80px 1fr 20px;
+    grid-template-rows: 1fr 2fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    width: 100vh;
+    height: 100vh;
+}
+.grid1{
+    background-color: brown;
+   
+
+}
+.grid2{
+    background-color: seagreen;
+    
+
+}
+.grid3{
+    background-color: red;
+
+}
+.grid4{
+    background-color: blue;
+    grid-row: span 2;
+}
+.grid5{
+    background-color:yellowgreen;
+    grid-row: span 2;
+}
+.grid6{
+    background-color: purple;
+    grid-row: span 2;
+}
+.grid7{
+    background-color: orange;
+    
+}
+.grid8{
+    background-color: blueviolet;
+    grid-column: span 2;
+}
